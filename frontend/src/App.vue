@@ -4,7 +4,7 @@
     <SummonerOverview class="column" />
     <SummonerOverview class="column" />
     <SummonerOverview class="column" />
-    <SummonerOverview class="column" />
+    <SummonerOverviewSample class="column" />
   </div>
 </template>
 
@@ -12,9 +12,10 @@
 import { defineComponent } from 'vue';
 import '../node_modules/bulma/css/bulma.css';
 import SummonerOverview from './SummonerOverview.vue';
+import SummonerOverviewSample from './SummonerOverviewSample.vue';
 
 export default defineComponent({
   name: 'App',
-  components: { SummonerOverview },
+  components: { SummonerOverview, SummonerOverviewSample },
 });
 </script>
